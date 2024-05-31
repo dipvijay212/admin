@@ -1,0 +1,3064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div class="body d-flex">
+        <!-- section-1 -->
+        <!-- navication -->
+        <div class="left">
+          <nav id="deep2" class="navbar">
+            <div id="deep1" class="container p-4">
+              <a href="" style="font-size: 20px"
+                ><img src="images/logo-dark.svg" alt="" /><span
+                  class="badge rounded-pill"
+                  style="
+                    background-color: #eaf6f2;
+                    color: #2ca87f;
+                    margin-left: 20px;
+                  "
+                  >v9.0</span
+                ></a
+              >
+            </div>
+          </nav>
+          <!-- body card -->
+          <div class="body-card p-3">
+            <div class="body-c">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <div
+                    class="accordion-header"
+                    id="headingOne"
+                    style="background-color: #eeeeee"
+                  >
+                    <div
+                      class="js p-1 d-flex align-content-center justify-content-between"
+                    >
+                      <div class="img-1">
+                        <img
+                          src="images/avatar-1.jpg"
+                          class="rounded rounded-circle"
+                          alt=""
+                        />
+                      </div>
+                      <div class="text-1">
+                        <h6
+                          class="pt-2 mb-0"
+                          style="font-size: 17px; color: rgb(82, 82, 82)"
+                        >
+                          Jonh Smith
+                        </h6>
+                        <p
+                          class="p-0 mb-0 text-secondary"
+                          style="font-size: 12px"
+                        >
+                          Administrator
+                        </p>
+                      </div>
+                      <div class="icone">
+                        <a
+                          class="text-decoration-none"
+                          href=""
+                          id="headingOne"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                          ><i
+                            class="ri-filter-3-line"
+                            style="font-size: 30px; color: #5b6b79"
+                          ></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div
+                      class="accordion-body"
+                      style="background-color: #eaf6f2"
+                    >
+                      <div class="list-1">
+                        <ul class="list-group" id="ls-2">
+                          <li
+                            class="list-group-item border-0 bg-transparent p-2"
+                          >
+                            <a href="" class="text-decoration-none"
+                              ><i class="ri-user-3-line"></i>&nbsp;&nbsp;My
+                              Account</a
+                            >
+                          </li>
+                          <li
+                            class="list-group-item border-0 bg-transparent p-2"
+                          >
+                            <a href="" class="text-decoration-none"
+                              ><i class="ri-settings-4-line"></i
+                              >&nbsp;&nbsp;Settings</a
+                            >
+                          </li>
+                          <li
+                            class="list-group-item border-0 bg-transparent p-2"
+                          >
+                            <a href="" class="text-decoration-none"
+                              ><i class="ri-lock-2-line"></i>&nbsp;&nbsp;Lock
+                              Screen</a
+                            >
+                          </li>
+                          <li
+                            class="list-group-item border-0 bg-transparent p-2"
+                          >
+                            <a href="" class="text-decoration-none"
+                              ><i class="ri-shut-down-line"></i
+                              >&nbsp;&nbsp;Logout</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NAVICATION -->
+          <div class="navication p-3">
+            <span style="color: grey; font-size: 12px">NAVICATION</span>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div
+                class="accordion-item l-1"
+                style="
+                  background-color: #dce7fd;
+                  border: none;
+                  border-radius: 6px;
+                "
+              >
+                <div class="accordion-header" id="headingTwo">
+                  <div
+                    class="menu-1 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px"
+                      ><i class="ri-bar-chart-box-fill"></i
+                      >&nbsp;&nbsp;&nbsp;Dashboard</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="color: #4680ff"
+                        ><span
+                          style="
+                            padding: 0px 5px;
+                            border-radius: 50%;
+                            color: #c8d9ff;
+                            font-size: 14px;
+                            background-color: #4680ff;
+                            margin-right: 10px;
+                          "
+                          >2</span
+                        ><i class="ri-arrow-right-s-line icone"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body" style="background-color: #f8f9fa">
+                    <ul class="ps-2">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Default</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Analytics</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block"
+                          >&nbsp;&nbsp;&nbsp;Finance</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" style="background-color: #f8f9fa">
+                <div class="accordion-header" id="flush-headingThree">
+                  <div
+                    class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px; color: #5b6b79"
+                      ><i class="ri-file-3-line" style="font-size: 20px"></i
+                      >&nbsp;&nbsp;&nbsp;Layouts</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                        style="color: #4680ff"
+                        ><i class="ri-arrow-right-s-line text-secondary"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body" style="background-color: #f8f9fa">
+                    <ul class="ps-3">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Vertical</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Horizonal</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Layouts 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Compact</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Tab</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Widget -->
+          <div class="Widget p-3">
+            <span style="color: grey; font-size: 12px">WIDGET</span>
+            <div class="menu-2 mt-2">
+              <a
+                class="p-2 d-block text-decoration-none"
+                style="font-size: 17px; color: #5b6b79"
+                href=""
+                ><i class="ri-creative-commons-nd-line"></i
+                >&nbsp;&nbsp;&nbsp;Statistics</a
+              >
+            </div>
+            <div class="menu-2 mt-1">
+              <a
+                class="p-2 d-block text-decoration-none"
+                style="font-size: 17px; color: #5b6b79"
+                href=""
+                ><i class="ri-server-fill"></i>&nbsp;&nbsp;&nbsp;Data</a
+              >
+            </div>
+            <div class="menu-2 mt-1">
+              <a
+                class="p-2 d-block text-decoration-none"
+                style="font-size: 17px; color: #5b6b79"
+                href=""
+                ><i class="ri-pie-chart-2-fill"></i>&nbsp;&nbsp;&nbsp;Chart</a
+              >
+            </div>
+          </div>
+          <!-- admin panel -->
+          <div class="admin-panel p-3 pt-0">
+            <span style="color: grey; font-size: 12px">ADMIN PANEL</span>
+            <div class="accordion accordion-flush" id="accordionFlushExample1">
+              <div
+                class="accordion-item border-bottom-0"
+                style="background-color: #f8f9fa"
+              >
+                <div class="accordion-header" id="flush-heading1">
+                  <div
+                    class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse1"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px; color: #5b6b79"
+                      ><i class="ri-stack-fill"></i>&nbsp;&nbsp;&nbsp;Online
+                      Courses</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse3"
+                        aria-expanded="false"
+                        aria-controls="collapse3"
+                        style="color: #4680ff"
+                        ><i class="ri-arrow-right-s-line text-secondary"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading1"
+                  data-bs-parent="#accordionFlushExample1"
+                >
+                  <div class="accordion-body">
+                    <ul class="ps-3">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Dashboard</a
+                        >
+                      </li>
+                      <li class="pb-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample2"
+                        >
+                          <div
+                            class="accordion-item"
+                            style="background-color: #f8f9fa"
+                          >
+                            <div class="accordion-header" id="flush-heading2">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse2"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse2"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Teacher</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse2"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading2"
+                              data-bs-parent="#accordionFlushExample2"
+                            >
+                              <div class="accordion-body">
+                                <ul type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >List</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Apply</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Add</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="pb-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample3"
+                        >
+                          <div
+                            class="accordion-item"
+                            style="background-color: #f8f9fa"
+                          >
+                            <div class="accordion-header" id="flush-heading3">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse3"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse3"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Student</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3"
+                                    aria-expanded="false"
+                                    aria-controls="collapse3"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse3"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading3"
+                              data-bs-parent="#accordionFlushExample3"
+                            >
+                              <div class="accordion-body">
+                                <ul type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >List</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Apply</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Add</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="pb-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample4"
+                        >
+                          <div
+                            class="accordion-item"
+                            style="background-color: #f8f9fa"
+                          >
+                            <div class="accordion-header" id="flush-heading4">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse4"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse4"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Courses</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4"
+                                    aria-expanded="false"
+                                    aria-controls="collapse4"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse4"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading4"
+                              data-bs-parent="#accordionFlushExample4"
+                            >
+                              <div class="accordion-body">
+                                <ul type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >View</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Add</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Pricing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Site</a
+                        >
+                      </li>
+                      <li>
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample9"
+                        >
+                          <div
+                            class="accordion-item"
+                            style="background-color: #f8f9fa"
+                          >
+                            <div class="accordion-header" id="flush-heading9">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse9"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse9"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Settings</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse9"
+                                    aria-expanded="false"
+                                    aria-controls="collapse3"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse9"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading9"
+                              data-bs-parent="#accordionFlushExample9"
+                            >
+                              <div class="accordion-body">
+                                <ul type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Payment</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Pricing</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Notification</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-heading6">
+                  <div
+                    class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse6"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px; color: #5b6b79"
+                      ><i class="ri-user-3-fill"></i
+                      >&nbsp;&nbsp;&nbsp;Membership</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse6"
+                        aria-expanded="false"
+                        aria-controls="collapse6"
+                        style="color: #4680ff"
+                        ><i class="ri-arrow-right-s-line text-secondary"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapse6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading6"
+                  data-bs-parent="#accordionFlushExample1"
+                >
+                  <div class="accordion-body">
+                    <ul class="ps-3">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Dashboard</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;List</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Pricing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Setting</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-heading7">
+                  <div
+                    class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse7"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px; color: #5b6b79"
+                      ><i class="ri-24-hours-line"></i>&nbsp;&nbsp;&nbsp;Helpdesk</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse6"
+                        aria-expanded="false"
+                        aria-controls="collapse6"
+                        style="color: #4680ff"
+                        ><i class="ri-arrow-right-s-line text-secondary"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapse7"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading7"
+                  data-bs-parent="#accordionFlushExample1"
+                >
+                  <div class="accordion-body">
+                    <ul class="ps-3">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Dashboard</a
+                        >
+                      </li>
+                      <li class="pb-1">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample2"
+                        >
+                          <div
+                            class="accordion-item"
+                            style="background-color: #f8f9fa"
+                          >
+                            <div class="accordion-header" id="flush-heading2">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse2"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse2"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Ticket</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse2"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading2"
+                              data-bs-parent="#accordionFlushExample2"
+                            >
+                              <div class="accordion-body">
+                                <ul type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Creat</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >List</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Details</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Customer</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--Invoice-->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-heading10">
+                  <div
+                    class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse10"
+                  >
+                    <a
+                      href=""
+                      class="text-decoration-none"
+                      style="font-size: 17px; color: #5b6b79"
+                      ><i class="ri-honour-fill"></i>&nbsp;&nbsp;&nbsp;Invoice</a
+                    >
+                    <div class="sc-2">
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse6"
+                        aria-expanded="false"
+                        aria-controls="collapse6"
+                        style="color: #4680ff"
+                        ><i class="ri-arrow-right-s-line text-secondary"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapse10"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading10"
+                  data-bs-parent="#accordionFlushExample1"
+                >
+                  <div class="accordion-body">
+                    <ul class="ps-3">
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Dashboard</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Create</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Details</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;List</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="text-decoration-none d-block pb-3"
+                          >&nbsp;&nbsp;&nbsp;Edit</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- UI COMPONENTS -->
+              <div class="Widget p-3 ps-0">
+                <span style="color: grey; font-size: 12px">UI COMPONENTS</span>
+                <div class="menu-2 mt-2">
+                  <a
+                    class="p-2 d-block text-decoration-none"
+                    style="font-size: 17px; color: #5b6b79"
+                    href=""
+                    ><i class="ri-box-3-fill"></i>&nbsp;&nbsp;&nbsp;Components</a
+                  >
+                </div>
+                <div class="menu-2 mt-1">
+                  <a
+                    class="p-2 d-block text-decoration-none"
+                    style="font-size: 17px; color: #5b6b79"
+                    href=""
+                    ><i class="ri-flag-2-fill"></i>&nbsp;&nbsp;&nbsp;Animation</a
+                  >
+                </div>
+                <div class="menu-2 mt-1">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="flush-heading11">
+                      <div
+                        class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                      >
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          style="font-size: 17px; color: #5b6b79"
+                          ><i class="ri-pie-chart-2-fill"></i>&nbsp;&nbsp;&nbsp;Icons</a
+                        >
+                        <div class="sc-2">
+                          <a
+                            href=""
+                            class="text-decoration-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse6"
+                            aria-expanded="false"
+                            aria-controls="collapse6"
+                            style="color: #4680ff"
+                            ><i class="ri-arrow-right-s-line text-secondary"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="flush-collapse11"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-heading11"
+                      data-bs-parent="#accordionFlushExample1"
+                    >
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Feather</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Font Awesome 5</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Material</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Tabler</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Tabler</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Tabler</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--forms-->
+              <div class="Widget1 p-3 ps-0">
+                <span style="color: grey; font-size: 12px">FORMS</span>
+                <div class="menu-2 mt-1">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="flush-heading14">
+                      <div
+                        class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                      >
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          style="font-size: 17px; color: #5b6b79"
+                          ><i class="ri-layout-grid-fill"></i>&nbsp;&nbsp;&nbsp;Forms Element</a
+                        >
+                        <div class="sc-2">
+                          <a
+                            href=""
+                            class="text-decoration-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse14"
+                            aria-expanded="false"
+                            aria-controls="collapse14"
+                            style="color: #4680ff"
+                            ><i class="ri-arrow-right-s-line text-secondary"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="flush-collapse14"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-heading14"
+                      data-bs-parent="#accordionFlushExample1"
+                    >
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Form Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Form Floating</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Form Option</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Input Groups </a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Checkbox</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Radio</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Switch</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Maga option</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading15">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse15"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-plug-2-line"></i>&nbsp;&nbsp;&nbsp;Forms Plugins</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse15"
+                          aria-expanded="false"
+                          aria-controls="collapse15"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse15"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading15"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-3">
+                        <li>
+                          <div
+                          class="accordion accordion-flush "
+                          id="accordionFlushExample2"
+                        >
+                          <div
+                            class="accordion-item"
+                            
+                          >
+                            <div class="accordion-header" id="flush-heading17">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse17"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse17"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Date</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse17"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading17"
+                              data-bs-parent="#accordionFlushExample17"
+                            >
+                              <div class="accordion-body">
+                                <ul style="list-style: disc;" type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Datepicker</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Data Range Picker</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Timepicker</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </li>
+                        <li>
+                          <div
+                          class="accordion accordion-flush "
+                          id="accordionFlushExample18"
+                        >
+                          <div
+                            class="accordion-item"
+                            
+                          >
+                            <div class="accordion-header" id="flush-heading18">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse18"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse18"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >Select</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse18"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading18"
+                              data-bs-parent="#accordionFlushExample18"
+                            >
+                              <div class="accordion-body">
+                                <ul style="list-style: disc;" type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Choices js</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Rating</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Google reCaptcha</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Input Masks</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Clipboard</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Nouislider</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Bootstrap Switch</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Typeahead</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading19">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse19"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-user-3-fill"></i
+                        >&nbsp;&nbsp;&nbsp;Text Editor</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse19"
+                          aria-expanded="false"
+                          aria-controls="collapse19"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse19"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading19"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-3">
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Tinymce</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Quill</a
+                          >
+                        </li>
+                        <li>
+                          <div
+                          class="accordion accordion-flush ps-0"
+                          id="accordionFlushExample2"
+                        >
+                          <div
+                            class="accordion-item"
+                            
+                          >
+                            <div class="accordion-header" id="flush-heading20">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse20"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse20"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >CK editor</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse20"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading20"
+                              data-bs-parent="#accordionFlushExample20"
+                            >
+                              <div class="accordion-body">
+                                <ul style="list-style: disc;" type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >classic</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Document</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Inline</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Balloon</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Mockdown</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-2 mt-1">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="flush-heading16">
+                      <div
+                        class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                      >
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          style="font-size: 17px; color: #5b6b79"
+                          ><i class="ri-layout-top-fill"></i>&nbsp;&nbsp;&nbsp;Form Layouts</a
+                        >
+                        <div class="sc-2">
+                          <a
+                            href=""
+                            class="text-decoration-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse6"
+                            aria-expanded="false"
+                            aria-controls="collapse6"
+                            style="color: #4680ff"
+                            ><i class="ri-arrow-right-s-line text-secondary"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="flush-collapse16"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-heading16"
+                      data-bs-parent="#accordionFlushExample1"
+                    >
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Layouts</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Multicolumn</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Actionbars</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Sticky Action bars</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading24">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse24"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-sticky-note-add-fill"></i>&nbsp;&nbsp;&nbsp;File upload</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse24"
+                          aria-expanded="false"
+                          aria-controls="collapse24"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse24"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading16"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-3">
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Dropzone</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Uppy</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-2 mt-2">
+                  <a
+                    class="p-2 d-block text-decoration-none"
+                    style="font-size: 17px; color: #5b6b79 ; background-color: white;"
+                    href=""
+                    ><i class="ri-coupon-4-fill"></i>&nbsp;&nbsp;&nbsp;Wizard</a
+                  >
+                </div>
+                <div class="menu-2 mt-2">
+                  <a
+                    class="p-2 d-block text-decoration-none"
+                    style="font-size: 17px; color: #5b6b79 ; background-color: white;"
+                    href=""
+                    ><i class="ri-align-item-top-fill"></i>&nbsp;&nbsp;&nbsp;Form Validation</a
+                  >
+                </div>
+                <div class="menu-2 mt-2">
+                  <a
+                    class="p-2 d-block text-decoration-none"
+                    style="font-size: 17px; color: #5b6b79 ; background-color: white;"
+                    href=""
+                    ><i class="ri-creative-commons-nd-line"></i
+                    >&nbsp;&nbsp;&nbsp;Image cropper</a
+                  >
+                </div>
+              </div>
+              <div class="Widget3 p-3 ps-0">
+                <span style="color: grey; font-size: 12px">TABLE</span>
+                <div class="menu-2 mt-1">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="flush-heading23">
+                      <div
+                        class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse23"
+                      >
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          style="font-size: 17px; color: #5b6b79"
+                          ><i class="ri-menu-line"></i>&nbsp;&nbsp;&nbsp;Bootstrap Table</a
+                        >
+                        <div class="sc-2">
+                          <a
+                            href=""
+                            class="text-decoration-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse23"
+                            aria-expanded="false"
+                            aria-controls="collapse23"
+                            style="color: #4680ff"
+                            ><i class="ri-arrow-right-s-line text-secondary"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="flush-collapse23"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-heading23"
+                      data-bs-parent="#accordionFlushExample1"
+                    >
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Basic Table</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Sizing table</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Border table </a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Styling table </a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading25">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse25"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-barcode-box-line"></i>&nbsp;&nbsp;&nbsp; Vanilla Table</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse25"
+                          aria-expanded="false"
+                          aria-controls="collapse25"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse25"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading25"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-1">
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Basic initializtion</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Dynamic Import</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Render Column Cells</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Datetime Sorting</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Methods</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Add Rows </a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Fetch API </a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Filters </a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Export  </a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading19">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse19"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-pie-chart-2-fill"></i>&nbsp;&nbsp;&nbsp;Text Editor</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse19"
+                          aria-expanded="false"
+                          aria-controls="collapse19"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse19"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading19"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-3">
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Tinymce</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Quill</a
+                          >
+                        </li>
+                        <li>
+                          <div
+                          class="accordion accordion-flush ps-0"
+                          id="accordionFlushExample2"
+                        >
+                          <div
+                            class="accordion-item"
+                            
+                          >
+                            <div class="accordion-header" id="flush-heading20">
+                              <div
+                                class="menu-3 d-flex justify-content-between btn"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse20"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse20"
+                              >
+                                <a
+                                  href=""
+                                  class="text-decoration-none"
+                                  style="font-size: 17px"
+                                  >CK editor</a
+                                >
+                                <div class="sc-2">
+                                  <a
+                                    href=""
+                                    class="text-decoration-none"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="color: #4680ff"
+                                    ><i
+                                      class="ri-arrow-right-s-line text-secondary"
+                                    ></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              id="flush-collapse20"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-heading20"
+                              data-bs-parent="#accordionFlushExample20"
+                            >
+                              <div class="accordion-body">
+                                <ul style="list-style: disc;" type="bullet">
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >classic</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Document</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Inline</a
+                                    >
+                                  </li>
+                                  <li class="pb-3">
+                                    <a class="text-decoration-none" href=""
+                                      >Balloon</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Mockdown</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-2 mt-1">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="flush-heading31">
+                      <div
+                        class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse31"
+                      >
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          style="font-size: 17px; color: #5b6b79"
+                          ><i class="ri-user-3-fill"></i
+                          >&nbsp;&nbsp;&nbsp;DT extensions</a
+                        >
+                        <div class="sc-2">
+                          <a
+                            href=""
+                            class="text-decoration-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse6"
+                            aria-expanded="false"
+                            aria-controls="collapse6"
+                            style="color: #4680ff"
+                            ><i class="ri-arrow-right-s-line text-secondary"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="flush-collapse31"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-heading31"
+                      data-bs-parent="#accordionFlushExample1"
+                    >
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Autofill</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Button</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Colrecorder</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="text-decoration-none d-block pb-3"
+                              >&nbsp;&nbsp;&nbsp;Sticky Action bars</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-heading32">
+                    <div
+                      class="menu-2 p-2 mt-2 d-flex justify-content-between btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse32"
+                    >
+                      <a
+                        href=""
+                        class="text-decoration-none"
+                        style="font-size: 17px; color: #5b6b79"
+                        ><i class="ri-user-3-fill"></i
+                        >&nbsp;&nbsp;&nbsp;File upload</a
+                      >
+                      <div class="sc-2">
+                        <a
+                          href=""
+                          class="text-decoration-none"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse6"
+                          aria-expanded="false"
+                          aria-controls="collapse6"
+                          style="color: #4680ff"
+                          ><i class="ri-arrow-right-s-line text-secondary"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="flush-collapse32"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading32"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="accordion-body">
+                      <ul class="ps-3">
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Dropzone</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="text-decoration-none d-block pb-3"
+                            >&nbsp;&nbsp;&nbsp;Uppy</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="forms">
+         <div class="forms1">
+          <i>jigul</i> Membership &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i id="icon"
+          class="ri-stack-fill"></i>
+         </div>
+          <div class="forms2 " >
+            <ul id="gk1">
+              <li class="gk">gkfktufk</li>
+              <li class="gk">gkfktufk</li>
+              <li class="gk">gkfktufk</li>
+              <li class="gk">gkfktufk</li>
+
+            </ul>
+          </div>
+        </div> -->
+        </div>
+        <!-- section-2 -->
+        <div class="right">
+          <div class="container-fluid m-0 p-0">
+            <nav id="deep" class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <div  class="menu">
+                  <button class="btn" style="border: none">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <i id="sea" class="ri-search-line"></i>
+                  <input id="sea1"
+                    style=" 
+                      height: 40px;
+                      border-radius: 10px;
+                      border: 1px solid gray;
+                    "
+                    type="text"
+                    placeholder="Ctrl + K"
+                  />
+                </div>
+                <div class="menu1">
+                  <ul>
+                    <li id="sun">
+                      <i class="ri-sun-fill"></i>
+                      <ul class="fill">
+                        <li>
+                          <a href=""
+                            ><i style="color: black" class="ri-moon-fill"></i>
+                            Dark</a
+                          >
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i style="color: black" class="ri-sun-fill"></i>
+                            light</a
+                          >
+                        </li>
+                        <li>
+                          <a style="padding-right: 18px" href=""
+                            ><i
+                              style="color: black"
+                              class="ri-settings-2-line"
+                            ></i>
+                            Setting</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li id="set">
+                      <i class="ri-settings-2-fill"></i>
+                      <ul class="home">
+                        <li>
+                          <a style="padding-right: 10px" href=""
+                            ><i class="ri-user-fill"></i>&nbsp; My Account</a
+                          >
+                        </li>
+                        <li>
+                          <a style="padding-right: 32px" href=""
+                            ><i class="ri-settings-2-line"></i
+                            >&nbsp;&nbsp;Settings</a
+                          >
+                        </li>
+                        <li>
+                          <a style="padding-right: 32px" href=""
+                            ><i class="ri-customer-service-fill"></i
+                            >&nbsp;&nbsp;Support</a
+                          >
+                        </li>
+                        <li>
+                          <a style="padding-right: 7px" href=""
+                            ><i class="ri-lock-2-line"></i>&nbsp; Lock Screen</a
+                          >
+                        </li>
+                        <li>
+                          <a style="padding-right: 39px" href=""
+                            ><i class="ri-shut-down-line"></i>&nbsp;Logout</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i
+                        class="ri-flashlight-fill"
+                        data-bs-toggle="offcanvas"
+                        href="#offcanvasExample"
+                        role="button"
+                        aria-controls="offcanvasExample"
+                      ></i>
+                    </li>
+                    <li>
+                      <i
+                        class="ri-notification-4-fill"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        id="noti"
+                      ></i
+                      ><span
+                        class="rounded rounded-circle bg-success"
+                        style="
+                          position: relative;
+                          top: -12px;
+                          left: 2px;
+                          padding: 3px 7px;
+                          color: white;
+                          font-size: 10px;
+                        "
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        >3</span
+                      >
+                    </li>
+                    <li id="prof">
+                      <img
+                        src="images/avatar-1.jpg"
+                        alt=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="container">
+              <div class="row">
+                <div class="col-11 explore bg-primary ">
+                  <div class="row ">
+                    <div id="raj" class="col-lg-6 pb-5  col-sm-11 col-md-10 ">
+                      <h1 style="font-size: 35px; color: white;margin-top: 30px;">
+                        Explore Redesigned Able Pro
+                      </h1>
+                      <p style="font-size: 16px; font-weight: bold; color: white">
+                        The Brand new User Interface with power of Bootstrap
+                        Components. Explore the Endless possibilities with Able Pro.
+                      </p>
+                      <br />
+                      <a id="on-3" href="">Exclusive on Themeforest</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="explore">
+                <div class="pro">
+                  <h1 style="font-size: 35px; color: white">
+                    Explore Redesigned Able Pro
+                  </h1>
+                  <p style="font-size: 13px; font-weight: bold; color: white">
+                    The Brand new User Interface with power of Bootstrap
+                    Components. Explore the Endless possibilities with Able Pro.
+                  </p>
+                  <br />
+                  <a href="">Exclusive on Themeforest</a>
+                </div>
+              </div> -->
+            </div>
+            <div class="container">
+              <div style="margin-top: 50px" class="row">
+                <div class=" col-sm-12 col-md-6">
+                  <div class="earning">
+                    <div class="earning1">
+                      <p style="display: inline-block;  font-size: 15px; font-weight: bold;color: rgb(66, 66, 66);">
+                        <i style="background-color: #cbd7f3;padding: 6px;border-radius: 10px;color: #4680ff;" class="ri-bank-card-fill"></i> All Earnings
+                      </p>
+                      <i style="padding-right: 15px" class="ri-more-2-line"></i>
+                    </div>
+                    <div class="earning2">
+                      <div class="earning3">
+                        <canvas id="myChart"></canvas>
+                      </div>
+                      <div class="earning4">
+                        <p>
+                          $3,020 <br />
+                          <span style="font-size: 15px; color: #4680ff"
+                            ><i class="ri-arrow-right-up-line"></i> 30.6%</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="earning">
+                    <div class="earning1">
+                      <p style="display: inline-block; font-size: 15px; font-weight: bold;color: rgb(66, 66, 66);">
+                        <i style="background-color: rgb(247, 228, 183);padding: 6px;border-radius: 10px;color:goldenrod;"  class="ri-sticky-note-fill"></i> Page Views
+                      </p>
+                      <i style="padding-right: 15px" class="ri-more-2-line"></i>
+                    </div>
+                    <div class="earning2">
+                      <div class="earning3">
+                        <canvas id="myChart1"></canvas>
+                      </div>
+                      <div class="earning4">
+                        <p>
+                          290K+ <br />
+                          <span style="font-size: 15px; color: goldenrod"
+                            ><i class="ri-arrow-right-up-line"></i> 30.6%</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="margin-top: 30px" class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="earning">
+                    <div class="earning1">
+                      <p style="display: inline-block; font-size: 15px; font-weight: bold;color: rgb(66, 66, 66);">
+                        <i style="background-color: #c4f3e3; padding: 6px;border-radius: 10px;color: #2ca87f;"  class="ri-calendar-2-fill"></i>Total Task
+                      </p>
+                      <i style="padding-right: 15px" class="ri-more-2-line"></i>
+                    </div>
+                    <div class="earning2">
+                      <div class="earning3">
+                        <canvas id="myChart2"></canvas>
+                      </div>
+                      <div class="earning4">
+                        <p>
+                          839 <br />
+                          <span style="font-size: 15px; color: #2ca87f;"
+                            ><i class="ri-arrow-right-up-line"></i> New</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="earning">
+                    <div class="earning1">
+                      <p style="display: inline-block;  font-size: 15px; font-weight: bold;color: rgb(66, 66, 66);">
+                        <i  style="background-color: rgb(245, 190, 201); padding: 6px;border-radius: 10px;color: crimson;"  class="ri-time-line"></i> Download
+                      </p>
+                      <i style="padding-right: 15px" class="ri-more-2-line"></i>
+                    </div>
+                    <div class="earning2">
+                      <div class="earning3">
+                        <canvas id="myChart4"></canvas>
+                      </div>
+                      <div class="earning4">
+                        <p>
+                          2,067 <br />
+                          <span style="font-size: 15px; color: crimson"
+                            ><i class="ri-arrow-right-up-line"></i> 30.6%</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-lg-9 ">
+                  <div class="rate">
+                    <div class="earning1">
+                      <p style="display: inline-block; font-size: 20px;padding-left: 20px;font-weight: 700;">
+                       Repeat customer rate
+                      </p>
+                      <i style="padding-right: 15px;font-size: 20px" class="ri-more-line"></i>
+                    </div>
+                    <div class="text-end mt-2 mb-0 ">
+                     <p style="font-weight: 600;">5.44% <span class="bg-success rounded text-white p-1  ">+2.6%</span></p>
+                    </div>
+                    <div><canvas id="myChart3"></canvas></div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-3    ">
+                  <div class="pr">
+                    <center><h5>Project - Able Pro</h5></center>
+                    <hr />
+                    <div class="pro1">
+                      <div class="pro2 d-flex justify-content-between">
+                        <p>Release v1.2.0</p>
+                        <span>70%</span>
+                      </div>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 25%"
+                          aria-valuenow="25"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="pro3">
+                      <ul
+                        style="
+                          list-style: none;
+                          margin-top: 20px;
+                          /*  */
+                          margin-left: 0%;
+                          padding-left: 0%;
+                        "
+                        class="pro4"
+                      >
+                        <li>
+                          <i
+                            style="font-size: 10px; color: goldenrod"
+                            class="ri-circle-fill"
+                          ></i
+                          >&nbsp; Horizont...
+                          <span
+                            style="
+                              background-color: rgb(187, 187, 187);
+                              padding: 5px;
+                              border-radius: 10px;
+                            "
+                            ><i class="ri-link"></i>2</span
+                          >
+                        </li>
+                        <li>
+                          <i
+                            style="font-size: 10px; color: goldenrod"
+                            class="ri-circle-fill"
+                          ></i
+                          >&nbsp;Invoice Grnerat...
+                        </li>
+                        <li>
+                          <i
+                            style="font-size: 10px; color: goldenrod"
+                            class="ri-circle-fill"
+                          ></i
+                          >&nbsp;Package Upgra...
+                        </li>
+                        <li>
+                          <i
+                            style="font-size: 10px; color: #2ca87f"
+                            class="ri-circle-fill"
+                          ></i
+                          >&nbsp;Figma Auto Lay...
+                        </li>
+                      </ul>
+                     <div class="task1">
+                      <a id="task" href=""
+                      ><i class="ri-add-line"></i>Add task</a
+                    >
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-lg-9">
+                  <div style="margin-left: 20px" class="project">
+                    <div class="project1">
+                      <p style="font-size: 20px;font-weight: bold;color: rgb(95, 95, 95);">Project overview</p>
+                      <i style="font-size: 20px;font-weight: bold;color: rgb(95, 95, 95);" class="ri-more-line"></i>
+                    </div>
+                    <div class="row  project2">
+                      <div class="project3  col-md-6 col-lg-4  ">
+                        <div class="project4">
+                          <p>Total Tasks <br/><span style="color: black;font-weight: bold;">34,686</span></p>
+                        </div>
+                        <div class="project4">
+                         <img style=" background-color: whitesmoke;" src="images/chart.png" alt="">
+                        </div>
+                      
+                      </div>
+                      <div class="project8 col-md-6 col-lg-4  ">
+                        <div class="project4">
+                          <p>Prnding Tasks <br /><span style="font-weight: bold;">3,786</span></p>
+                        </div>
+                        <div class="project5 me-2 ">
+                          <img style=" background-color: whitesmoke;" src="images/chart2.png" alt="">
+                         </div>
+                      </div>
+                      <div class="ject col-md-12  col-lg-4 ">
+                         <div class="project9 mt-3 ">
+                          <a href=""><i class="ri-add-line"></i>Add Project </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                  <div class="total ">
+                   <div class="total1">
+                    <div class="total2">
+                       <a href="">@</a>
+                       <p style="font-weight: 700;display: inline-block; color: #474f57;" class="pt-3 ">Able pro <br>
+                       <span style="font-size: 13px;color: gray;"> @ableprodevelop</span>
+                        </p>
+                    </div>
+                    <div class="total9">
+                      <i style="font-size: 17px;" class="ri-more-2-line"></i>
+                    </div>
+                   </div>
+                   <div class="total3 p-3 pb-4   d-flex justify-content-between  ">
+                    <div class="total4 position-relative ">
+                      <img id="i-1" src="images/avatar-1.jpg" alt="">
+                      <img id="i-2" src="images/avatar-3.jpg" alt="">
+                      <img id="i-3" src="images/avatar-4.jpg" alt="">
+                      <img id="i-4" src="images/avatar-5.jpg" alt="">
+                    </div>
+                    <div class="total5">
+                      <i class="ri-add-line"></i>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="row">
+              <div class="col-md-12 col-lg-6  ">
+                <div  class="pending">
+                  <div class="pending1 d-flex justify-content-between ">
+                    <p style="font-size: 23px ;font-weight: 700;">Transactions</p>
+                    <i style="font-size: 23px ;font-weight: 700;" class="ri-more-2-line"></i>
+                  </div>
+                  <div class="pending2">
+                    <div class="pending3">
+                      <ul class="tion">
+                        <li><a href="">All Transaction</a></li>
+                        <li><a href="">Success</a></li>
+                        <li><a href="">Pending</a></li>
+                      </ul> <hr>
+                    </div>
+                    <div class="pending4">
+                      <div class="ing">
+                        <div class="ing2 me-4 ms-2  ">
+                          <p style="border: 1px solid rgb(216, 216, 216);padding: 5px 10px;border-radius: 10px;margin-top: 8px;">AI</p>
+                        </div>
+                        <div class="ing3">
+                          <p style="font-weight: bold;color: #474f57;">Apple Inc. <br><span style="font-size: 11px;font-weight: 400;">#ABLE-PRO-T00232</span></p>
+                        </div>
+                      </div>
+                      <div class="ing1">
+                        <p style="font-weight: bold;color: #474f57;">$210,000 <br><span style="font-size: 14px;font-weight: 400;color: crimson;"><i class="ri-arrow-left-down-line"></i> 10.6%</span></p>
+                      </div>
+                    </div> <hr>
+                    <div class="pending4">
+                      <div class="ing">
+                        <div class="ing2 me-4 ms-2  ">
+                          <p style="border: 1px solid rgb(216, 216, 216);padding: 5px 10px;border-radius: 10px;margin-top: 8px;">SM</p>
+                        </div>
+                        <div class="ing3">
+                          <p style="font-weight: bold;color: #474f57;">Spotify Music <br><span style="font-size: 11px;font-weight: 400;">#ABLE-PRO-T00232</span></p>
+                        </div>
+                      </div>
+                      <div class="ing1">
+                        <p style="font-weight: bold;color: #474f57;">- 10,000 <br><span style="font-size: 14px;font-weight: 400;color: #2ca87f;"><i class="ri-arrow-right-up-line"></i>  30.6%</span></p>
+                      </div>
+                    </div> <hr>
+                    <div class="pending4">
+                      <div class="ing">
+                        <div class="ing2 me-4 ms-2  ">
+                          <p style="border: 1px solid rgb(216, 216, 216);background-color: #d8dff0;color: #2e69e9; padding: 5px 10px;border-radius: 10px;margin-top: 8px;">MD</p>
+                        </div>
+                        <div class="ing3">
+                          <p style="font-weight: bold;color: #474f57;">Apple Inc. <br><span style="font-size: 11px;font-weight: 400;">#ABLE-PRO-T00232</span></p>
+                        </div>
+                      </div>
+                      <div class="ing1">
+                        <p style="font-weight: bold;color: #474f57;">-26 <br><span style="font-size: 14px;font-weight: 400;color: goldenrod;"><i class="ri-arrow-left-right-fill"></i> 5%</span></p>
+                      </div>
+                    </div> <hr>
+                    <div class="pending4">
+                      <div class="ing">
+                        <div class="ing2 me-4 ms-2 ">
+                          <p style="border: 1px solid rgb(216, 216, 216);padding: 5px 10px;border-radius: 10px;margin-top: 8px;">U</p>
+                        </div>
+                        <div class="ing3">
+                          <p style="font-weight: bold;color: #474f57;">Apple Inc. <br><span style="font-size: 11px;font-weight: 400;">#ABLE-PRO-T00232</span></p>
+                        </div>
+                      </div>
+                      <div class="ing1">
+                        <p style="font-weight: bold;color: #474f57;">$210,000 <br><span style="font-size: 14px;font-weight: 400;color: #2ca87f;"><i class="ri-arrow-right-up-line"></i> 10.6%</span></p>
+                      </div>
+                    </div> <hr>
+                    <div class="pending4">
+                      <div class="ing">
+                        <div class="ing2 me-4 ms-2 ">
+                          <p style="border: 1px solid rgb(216, 216, 216);background-color: rgb(250, 242, 199); padding: 5px 10px;border-radius: 10px;margin-top: 8px;color: goldenrod;">OC</p>
+                        </div>
+                        <div class="ing3">
+                          <p style="font-weight: bold;color: #474f57;">Apple Inc. <br><span style="font-size: 11px;font-weight: 400;">#ABLE-PRO-T00232</span></p>
+                        </div>
+                      </div>
+                      <div class="ing1">
+                        <p style="font-weight: bold;color: #474f57;">$210,000 <br><span style="font-size: 14px;font-weight: 400;color: #2ca87f;"><i class="ri-arrow-right-up-line"></i> 10.6%</span></p>
+                      </div>
+                    </div> <hr>
+                    <div class="pending4">
+                     <a id="view" href="">View all Transaction Hist...</a>
+                     <a id="new" href="">Create new Transaction </a>
+                    </div> <hr>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6">
+                <div class="income">
+                  <div class="income1 d-flex justify-content-between ">
+                    <p style="font-size: 23px ;font-weight: 700;">Total Income</p>
+                    <i style="font-size: 23px ;font-weight: 700;" class="ri-more-2-line"></i>
+                  </div>
+                  <div class="income2  ">
+                    <canvas id="myChart9"></canvas>
+                  </div>
+                  <div class="income3">
+                    <div  class="income4">
+                      <p><i style="font-size: 10px;padding-right: 7px;color: #4680ff;" class="ri-circle-fill"></i>Income <br><span>$23,876 <span style="font-size: 11px ;"><i class="ri-arrow-up-double-line"></i>+$763,43</span> </span></p>
+                    </div>
+                    <div class="income4">
+                      <p><i style="font-size: 10px;padding-right: 7px;color:goldenrod;" class="ri-circle-fill"></i>Rent <br><span>$23,876 <span style="font-size: 11px ;"><i class="ri-arrow-up-double-line"></i>+$763,43</span></span></p>
+                    </div>
+                  </div>
+                  <div class="income3">
+                    <div class="income4">
+                      <p><i style="font-size: 10px;padding-right: 7px;color: #2ca87f;" class="ri-circle-fill"></i>Download <br><span>$23,876  <span style="font-size: 11px ;"><i class="ri-arrow-up-double-line"></i>+$763,43</span></span></p>
+                    </div>
+                    <div class="income4">
+                      <p><i style="font-size: 10px;padding-right: 7px;color: white;" class="ri-circle-fill"></i>Views <br><span>$23,876 <span style="font-size: 11px ;"><i class="ri-arrow-up-double-line"></i>+$763,43</span></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div style="border: 0" class="modal-header">
+                <p style="font-weight: bold; font-size: 20px" class="pt-3">
+                  Notification
+                </p>
+                <span style="color: #4680ff">Mark all read </span>
+              </div>
+              <div class="modal-body">
+                <p>today</p>
+                <div class="ui d-flex">
+                  <div class="ui1 me-3">
+                    <i
+                      style="font-size: 20px; padding-left: 10px"
+                      class="ri-stack-fill"
+                    ></i>
+                  </div>
+                  <div class="ui2">
+                    <h5 style="display: inline-block">UI/UX Design</h5>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2min
+                    ago
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellat officiis vel saepe enim, aut at ullam magni
+                      soluta neque incidunt.
+                    </p>
+                  </div>
+                </div>
+                <div class="ui d-flex mt-2">
+                  <div class="ui1 me-3">
+                    <i
+                      style="font-size: 20px; padding-left: 10px"
+                      class="ri-chat-smile-fill"
+                    ></i>
+                  </div>
+                  <div class="ui2">
+                    <h5 style="display: inline-block">Message</h5>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    2min ago
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.
+                    </p>
+                  </div>
+                </div>
+                <p class="pt-2 pb-0 mb-1">Yesterday</p>
+                <div class="ui d-flex">
+                  <div class="ui1 me-3">
+                    <i
+                      style="font-size: 20px; padding-left: 10px"
+                      class="ri-message-3-line"
+                    ></i>
+                  </div>
+                  <div class="ui2">
+                    <h5 style="display: inline-block">Forms</h5>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2min
+                    ago
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellat officiis vel saepe enim, aut at ullam magni
+                      soluta neque incidunt.
+                    </p>
+                  </div>
+                </div>
+                <div class="ui d-flex mt-2">
+                  <div class="ui1 me-3">
+                    <i
+                      style="font-size: 20px; padding-left: 10px"
+                      class="ri-user-fill"
+                    ></i>
+                  </div>
+                  <div class="ui2">
+                    <h5 style="display: inline-block">Challenge ivitation</h5>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2min
+                    ago
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="decline">
+                      <a href="">Decline</a>
+                      <button
+                        style="border-radius: 20px; margin-left: 10px"
+                        type="button"
+                        class="btn btn-primary"
+                      >
+                        Primary
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui d-flex mt-2">
+                  <div class="ui1 me-3">
+                    <i
+                      style="font-size: 20px; padding-left: 10px"
+                      class="ri-shield-keyhole-fill"
+                    ></i>
+                  </div>
+                  <div class="ui2">
+                    <h5 style="display: inline-block">Security</h5>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2min
+                    ago
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellat officiis vel saepe enim, aut at ullam magni
+                      soluta neque incidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  style="
+                    margin-right: 33%;
+                    border: none;
+                    background-color: white;
+                  "
+                >
+                  <a style="color: crimson; text-decoration: none" href="">
+                    Clear all Notification</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              What's new announcement?
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="off">
+              <p>today</p>
+              <div class="able">
+                <span
+                  style="
+                    font-size: 13px;
+                    display: inline-block;
+                    background-color: #eaf6f2;
+                    color: #2ca87f;
+                    border-radius: 20px;
+                    padding: 8px 10px;
+                  "
+                  >Big news</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: gray"
+                  >2 min ago</span
+                >
+                <h5 style="padding: 10px 0px">Able Pro is Redesigned</h5>
+                <p>
+                  Able Pro is completely renowed with high aesthetics User
+                  Interface.
+                </p>
+                <img
+                  style="margin-left: 0px; margin-bottom: 20px"
+                  src="images/img-announcement-1.png"
+                  alt=""
+                />
+                <a href="">Check Now</a>
+              </div>
+              <div class="able mt-3">
+                <span
+                  style="
+                    font-size: 13px;
+                    display: inline-block;
+                    background-color: #e3ecae;
+                    color: goldenrod;
+                    border-radius: 20px;
+                    padding: 8px 10px;
+                  "
+                  >offer</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: gray"
+                  >2 hour ago</span
+                >
+                <h5 style="padding: 10px 0px">
+                  Able Pro is in best offer price
+                </h5>
+                <p>
+                  Download Able Pro exclusive on themeforest with best price.
+                </p>
+                <img
+                  style="margin-left: 0px; margin-bottom: 20px"
+                  src="images/img-announcement-2.png"
+                  alt=""
+                />
+              </div>
+              <div class="able">
+                <span
+                  style="
+                    font-size: 13px;
+                    display: inline-block;
+                    background-color: #eaf6f2;
+                    color: #85c8f5;
+                    border-radius: 20px;
+                    padding: 8px 10px;
+                  "
+                  >Blog</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: gray"
+                  >12 hour ago</span
+                >
+                <h5 style="padding: 10px 0px">Featured Dashboard Template</h5>
+                <p>
+                  Do you know Able Pro is one of the featured dashboard template
+                  selected by Themeforest team.?
+                </p>
+                <img
+                  style="margin-left: 0px; margin-bottom: 20px"
+                  src="images/img-announcement-3.png"
+                  alt=""
+                />
+              </div>
+              <div class="able">
+                <span
+                  style="
+                    font-size: 13px;
+                    display: inline-block;
+                    background-color: #eaf6f2;
+                    color: #85c8f5;
+                    border-radius: 20px;
+                    padding: 8px 10px;
+                  "
+                  >Announcement</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: gray"
+                  >12 hour ago</span
+                >
+                <h5 style="padding: 10px 0px">
+                  Buy Once - Get Free Updated lifetime
+                </h5>
+                <p>
+                  Get the lifetime free updates once you purchase the Able Pro.
+                </p>
+                <img
+                  style="
+                    margin-left: 0px;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                  "
+                  src="images/img-announcement-4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--profile modal-->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5>Profile</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="darrin d-flex">
+                  <div class="darrin1 ps-2 pt-2">
+                    <img src="images/avatar-1.jpg" alt="" />
+                  </div>
+                  <div class="darrin2 ps-3">
+                    <p style="padding-top: 10px">
+                      Carson Darrin
+                      <i
+                        style="color: goldenrod"
+                        class="ri-vip-crown-2-fill"
+                      ></i> <br>
+                      <span style="font-size: 15px"
+                        >carson.darrin@company.io</span
+                      >
+                    </p>
+                  </div>
+                </div> <hr>
+                <div id="check" class="form-check form-switch p-0 m-0">
+                  <p style="font-size: 20px;margin: 0%;"><i class="ri-notification-2-line pe-2 "></i>Notification</p>
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                </div>
+                <div class="not">
+                  <p>Manage</p>
+                  <ul class="share">
+                    <li><i class="ri-settings-line pe-2 "></i>Setting</li>
+                    <li><i class="ri-share-circle-line pe-2 "></i>Share</li>
+                    <li><i class="ri-git-repository-private-line pe-2 "></i>Change Password</li>
+                  </ul>
+                </div> <hr>
+                <div class="group">
+                  <p>Team</p>
+                  <div class="group1">
+                    <p><i class="ri-group-line pe-2 "></i>Ui Design team</p>
+                    <span>
+                      <img id="gr1" src="images/avatar-1.jpg" alt="">
+                      <img id="gr2" src="images/avatar-3.jpg" alt="">
+                      <img id="gr3" src="images/avatar-4.jpg" alt="">
+                      <img id="gr4" src="images/avatar-5.jpg" alt="">
+                      <a href="">+2</a>
+                    </span>
+                  </div>
+                  <div class="group1">
+                    <p><i class="ri-group-line pe-2 "></i>Friends Group</p>
+                    <span>
+                      <img id="gr1" src="images/avatar-1.jpg" alt="">
+                      <img id="gr2" src="images/avatar-3.jpg" alt="">
+                      <img id="gr3" src="images/avatar-4.jpg" alt="">
+                    </span>
+                  </div>
+                  <div class="group1">
+                    <p><i class="ri-add-line pe-2 "></i>Add New</p>
+                  </div>
+                </div> <hr>
+                <div class="out">
+                 <center> <a href=""><i class="ri-logout-circle-r-line pe-2 "></i>Logout</a></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      //   $(document).ready(function(){
+      //   $("#gk1").hide(){
+      //     $(".gk").fadeToggle(200 )
+      //   })
+      // })
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $(".left").fadeToggle(200);
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      const ctx = document.getElementById("myChart");
+
+      new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: ["", "", "", "", "", "","","","","","",],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [10, 30, 40, 60, 50, 20,15,20,25,30,25],
+              backgroundColor:["#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF","#4680FF",],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+      const ct2 = document.getElementById("myChart1");
+
+new Chart(ct2, {
+  type: "bar",
+  data: {
+    labels: ["", "", "", "", "", "","","","","","",],
+    datasets: [
+      {
+        label: "# of Votes",
+        data: [10,30,40,20,60,50,20,15,20,25,30,25],
+        backgroundColor:["goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod","goldenrod"],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+});
+const ct3 = document.getElementById("myChart2");
+
+new Chart(ct3, {
+  type: "bar",
+  data: {
+    labels: ["", "", "", "", "", "","","","","","",],
+    datasets: [
+      {
+        label: "# of Votes",
+        data: [10,30,40,20,60,50,20,15,20,25,30,25],
+        backgroundColor:["#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f","#2ca87f",],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+});
+const ct4= document.getElementById("myChart4");
+
+new Chart(ct4, {
+  type: "bar",
+  data: {
+    labels: ["", "", "", "", "", "","","","","","",],
+    datasets: [
+      {
+        label: "# of Votes",
+        data: [10,30,40,20,60,50,20,15,20,25,30,25],
+        backgroundColor:["crimson","crimson","crimson","crimson","crimson","crimson","crimson","crimson","crimson","crimson","crimson"],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+});
+const ct9= document.getElementById("myChart9");
+
+new Chart(ct9, {
+  type: "doughnut",
+  data: {
+    labels: [
+    'incomee',
+    'Rent',
+    'Download',
+    'Views',
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [300, 50, 100],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)',
+    ],
+    hoverOffset: 4
+  }]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+});
+    </script>
+    <script>
+      const ct = document.getElementById("myChart3");
+
+      new Chart(ct, {
+        type: "line",
+        data: {
+          labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+
+      const ct1 = document.getElementById("myChart4");
+
+      new Chart(ct1, {
+        type: "line",
+        data: {
+          labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
